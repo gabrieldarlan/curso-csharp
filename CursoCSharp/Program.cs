@@ -1,4 +1,6 @@
-﻿using CursoCSharp.Fundamentos;
+﻿using CursoCSharp.ClassesEMetodos;
+using CursoCSharp.EstruturaDeControle;
+using CursoCSharp.Fundamentos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,6 +31,36 @@ namespace CursoCSharp
                 {"Operadores Atribuicao - Fundamentos", OperadoresAtribuicao.Executar},
                 {"Operadores Unarios - Fundamentos", OperadoresUnarios.Executar},
                 {"Operador Ternario - Fundamentos", OperadorTernario.Executar},
+
+                //Estruturas de controle
+
+                {"Estrutura If - Estrutura de controle", EstruturaIf.Executar},
+                {"Estrutura IfElse - Estrutura de controle", EstruturaIfElse.Executar},
+                {"Estrutura ifElseIf - Estrutura de controle", EstruturaIfElseIf.Executar},
+                {"Estrutura Switch - Estrutura de controle", EstruturaSwitch.Executar},
+                {"Estrutura While - Estrutura de controle", EstruturaWhile.Executar},
+                {"Estrutura Do While - Estrutura de controle", EstruturaDoWhile.Executar},
+                {"Estrutura For - Estrutura de controle", EstruturaFor.Executar},
+                {"Estrutura ForEach - Estrutura de controle", EstruturaForEach.Executar},
+
+                //Classes E Metodos
+                {"Membros - Classes e métodos", Membros.Executar},
+                {"Construtores - Classes e métodos", Construtores.Executar},
+                {"MetodosComRetorno - Classes e métodos", MetodosComRetorno.Executar},
+                {"MetodosEstaticos - Classes e métodos", MetodosEstaticos.Executar},
+                {"AtributosEstaticos - Classes e métodos", AtributosEstaticos.Executar},
+                {"DesafioAtributo - Classes e métodos", DesafioAtributo.Executar},
+                {"Params - Classes e métodos", Params.Executar},
+                {"ParametrosNomeados - Classes e métodos", ParametrosNomeados.Executar},
+                {"GetSet - Classes e métodos", GetSet.Executar},
+                {"Props - Classes e métodos", Props.Executar},
+                {"Readonly - Classes e métodos", Readonly.Executar},
+                {"ExemploEnum - Classes e métodos", ExemploEnum.Executar},
+                {"Struct - Classes e métodos", ExemploStruct.Executar},
+                {"StructVsClasse - Classes e métodos", StructVsClasse.Executar},
+                {"ValorVsReferencia - Classes e métodos", ValorVsReferencia.Executar},
+                {"ParametrosPorReferencia - Classes e métodos", ParametrosPorReferencia.Executar},
+                {"Parametro com valor padrão - Classes e métodos", ParametroPadrao.Executar},
             });
 
             central.SelecionarEExecutar();
