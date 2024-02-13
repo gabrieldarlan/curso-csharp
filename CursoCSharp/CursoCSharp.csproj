@@ -62,6 +62,14 @@
     <Compile Include="ClassesEMetodos\ExemploStruct.cs" />
     <Compile Include="ClassesEMetodos\StructVsClasse.cs" />
     <Compile Include="ClassesEMetodos\ValorVsReferencia.cs" />
+    <Compile Include="Colecoes\ColecoesDictionary.cs" />
+    <Compile Include="Colecoes\ColecoesStack.cs" />
+    <Compile Include="Colecoes\Igualdade.cs" />
+    <Compile Include="Colecoes\ColecoesArray.cs" />
+    <Compile Include="Colecoes\ColecoesArrayList.cs" />
+    <Compile Include="Colecoes\ColecoesQueue.cs" />
+    <Compile Include="Colecoes\ColecoesSet.cs" />
+    <Compile Include="Colecoes\ColecoesList.cs" />
     <Compile Include="EstruturaDeControle\EstruturaDoWhile.cs" />
     <Compile Include="EstruturaDeControle\EstruturaFor.cs" />
     <Compile Include="EstruturaDeControle\EstruturaForEach.cs" />
