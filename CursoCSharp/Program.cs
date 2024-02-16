@@ -2,6 +2,7 @@
 using CursoCSharp.Colecoes;
 using CursoCSharp.EstruturaDeControle;
 using CursoCSharp.Fundamentos;
+using CursoCSharp.OO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -72,6 +73,15 @@ namespace CursoCSharp
                 {"Igualdade - Colecoes", Igualdade.Executar},
                 {"ColecoesStack - Colecoes", ColecoesStack.Executar},
                 {"ColecoesDictionary - Colecoes", ColecoesDictionary.Executar},
+
+                // OO
+                {"Heranca - OO", Heranca.Executar},
+                {"ConstrutorThis - OO", ConstrutorThis.Executar},
+                {"Encapsulamento - OO", OO.Encapsulamento.Executar},
+                {"Polimorfismo - OO", Polimorfismo.Executar},
+                {"Abstract - OO", Abstract.Executar},
+                {"Interface - OO", Interface.Executar},
+                {"Sealed - OO", Sealed.Executar},
 
             })
             {
