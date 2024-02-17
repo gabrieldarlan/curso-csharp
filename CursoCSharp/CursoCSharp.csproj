@@ -93,6 +93,12 @@
     <Compile Include="Fundamentos\PrimeiroPrograma.cs" />
     <Compile Include="Fundamentos\Conversoes.cs" />
     <Compile Include="Fundamentos\VariaveisEConstantes.cs" />
+    <Compile Include="MetodosEFuncoes\MetodosDeExtensao.cs" />
+    <Compile Include="MetodosEFuncoes\DelegatesComParametros.cs" />
+    <Compile Include="MetodosEFuncoes\DelegateFuncAnonima.cs" />
+    <Compile Include="MetodosEFuncoes\UsandoDelegate.cs" />
+    <Compile Include="MetodosEFuncoes\LambdasDelegate.cs" />
+    <Compile Include="MetodosEFuncoes\ExemploLambda.cs" />
     <Compile Include="OO\Abstract.cs" />
     <Compile Include="OO\Sealed.cs" />
     <Compile Include="OO\Interface.cs" />

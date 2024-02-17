@@ -2,6 +2,7 @@
 using CursoCSharp.Colecoes;
 using CursoCSharp.EstruturaDeControle;
 using CursoCSharp.Fundamentos;
+using CursoCSharp.MetodosEFuncoes;
 using CursoCSharp.OO;
 using System;
 using System.Collections.Generic;
@@ -82,6 +83,15 @@ namespace CursoCSharp
                 {"Abstract - OO", Abstract.Executar},
                 {"Interface - OO", Interface.Executar},
                 {"Sealed - OO", Sealed.Executar},
+
+                {"ExemploLambda - MetodosEFuncoes", ExemploLambda.Executar},
+                {"LambdasDelegate - MetodosEFuncoes", LambdasDelegate.Executar},
+                {"UsandoDelegate - MetodosEFuncoes", UsandoDelegate.Executar},
+                {"DelegateFuncAnonima - MetodosEFuncoes", DelegateFuncAnonima.Executar},
+                {"DelegatesComParametros - MetodosEFuncoes", DelegatesComParametros.Executar},
+                {"MetodosDeExtensao - MetodosEFuncoes", MetodosDeExtensao.Executar},
+
+
 
             })
             {
