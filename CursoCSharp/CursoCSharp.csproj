@@ -43,6 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="api\ExemploTimeSpan.cs" />
+    <Compile Include="api\ExemploDateTime.cs" />
+    <Compile Include="api\ExemploPath.cs" />
+    <Compile Include="api\ExemploDirectoryInfo.cs" />
+    <Compile Include="api\Diretorios.cs" />
+    <Compile Include="api\ExemploFileInfo.cs" />
+    <Compile Include="api\LendoArquivos.cs" />
+    <Compile Include="api\PrimeiroArquivo.cs" />
     <Compile Include="CentralDeExercicios.cs" />
     <Compile Include="ClassesEMetodos\AtributosEstaticos.cs" />
     <Compile Include="ClassesEMetodos\Construtores.cs" />

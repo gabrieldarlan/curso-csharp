@@ -1,4 +1,5 @@
-﻿using CursoCSharp.ClassesEMetodos;
+﻿using CursoCSharp.api;
+using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
 using CursoCSharp.EstruturaDeControle;
 using CursoCSharp.Excecoes;
@@ -96,12 +97,20 @@ namespace CursoCSharp
                 {"PrimeiraExcecao - Excecoes", PrimeiraExcecao.Executar},
                 {"ExcecoesPersonalizadas - Excecoes", ExcecoesPersonalizadas.Executar},
 
+                // API
+                {"PrimeiroArquivo - Usando API", PrimeiroArquivo.Executar},
+                {"LendoArquivos - Usando API", LendoArquivos.Executar},
+                {"ExemploFileInfo - Usando API", ExemploFileInfo.Executar},
+                {"Diretorios - Usando API", Diretorios.Executar},
+                {"ExemploDirectoryInfo - Usando API", ExemploDirectoryInfo.Executar},
+                {"ExemploPath - Usando API", ExemploPath.Executar},
+                {"ExemploDateTime - Usando API", ExemploDateTime.Executar},
+                {"ExemploTimeSpan - Usando API", ExemploTimeSpan.Executar},
+
+            });
 
 
-            })
-            {
 
-            };
             central.SelecionarEExecutar();
         }
     }
