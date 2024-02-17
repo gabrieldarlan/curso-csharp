@@ -1,6 +1,7 @@
 ﻿using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
 using CursoCSharp.EstruturaDeControle;
+using CursoCSharp.Excecoes;
 using CursoCSharp.Fundamentos;
 using CursoCSharp.MetodosEFuncoes;
 using CursoCSharp.OO;
@@ -90,6 +91,10 @@ namespace CursoCSharp
                 {"DelegateFuncAnonima - MetodosEFuncoes", DelegateFuncAnonima.Executar},
                 {"DelegatesComParametros - MetodosEFuncoes", DelegatesComParametros.Executar},
                 {"MetodosDeExtensao - MetodosEFuncoes", MetodosDeExtensao.Executar},
+
+                // Excecoes
+                {"PrimeiraExcecao - Excecoes", PrimeiraExcecao.Executar},
+                {"ExcecoesPersonalizadas - Excecoes", ExcecoesPersonalizadas.Executar},
 
 
 

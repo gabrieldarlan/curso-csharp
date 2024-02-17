@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace CursoCSharp.MetodosEFuncoes
 {
+
     public static class ExtensoesInteiro
     {
         public static int Soma(this int num, int outroNumero)
